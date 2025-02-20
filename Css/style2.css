@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container .containerLeft{
+    width: 100vw;
+    height: 100vh;
+    background: #cd4c4c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container .containerLeft h1{
+    color: #fff;
+
+}
+
+.container .containerLeft h3{
+    color: #fff;
+    
+}
+
+.container .containerLeft p{
+    color: #fff;
+    
+}
+
+.container .containerRight{
+    position: absolute;
+    height: 90vh;
+    width: 90vw;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 16px;
+}
+
+.container .containerRight h1{
+    margin-bottom: 2rem;
+}
+
+.container .containerRight form label input{
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: 5px;
+    padding: .75rem;
+    outline: 0;
+    border: 1px solid #CCC;
+    border-radius: 6px;
+
+}
+
+.container .containerRight form button{
+     width: 100%;
+     color: #FFF;
+     background: #cd4c4c;
+     border: 0;
+     border-radius: 7px;
+     padding: 10px;
+     cursor: pointer;
+     font-weight: bold;
+     transition: all 1s ease;
+
+}
+
+
+.container .containerRight form button:hover{
+    background: #642424;
+    
+}
+
+.container .containerRight form button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (min-width: 768px){
+    .container .containerRight{
+        position: static;
+        width: 60vw;
+    }
+}
+
+h1, h3{
+
+    color: #343633;
+}
